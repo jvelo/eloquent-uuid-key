@@ -1,0 +1,21 @@
+{
+    "name": "jvelo/eloquent-uuid-key",
+    "description": "Use UUID as eloquent model keys",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jérôme Velociter",
+            "email": "jerome@velociter.fr"
+        }
+    ],
+    "require": {
+        "ramsey/uuid": "3.1.x",
+        "illuminate/database": "5.2.*",
+        "illuminate/events": "5.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+        "Jvelo\\Eloquent\\": "src/"
+    }
+  }
+}
